@@ -137,7 +137,7 @@ FROM order_details od;
 
 ### 📷 Output Screenshot:
 
-![Overall KPI](overall_kpi.png)
+![Overall KPI](overall_kpi.png.png)
 
 ---
 
@@ -162,7 +162,7 @@ ORDER BY order_year, order_month;
 
 ### 📷 Output Screenshot:
 
-![Monthly Revenue](monthly_revenue_trend.png)
+![Monthly Revenue](monthly_revenue_trend.png.png)
 
 ---
 
@@ -187,7 +187,7 @@ LIMIT 5;
 
 ### 📷 Output Screenshot:
 
-![Top 5 Products](top_5_products.png)
+![Top 5 Products](top_5_products.png.png)
 
 ---
 
@@ -213,7 +213,7 @@ ORDER BY total_revenue DESC;
 
 ### 📷 Output Screenshot:
 
-![State Wise Revenue](state_wise_revenue.png)
+![State Wise Revenue](state_wise_revenue.png.png)
 
 ---
 
@@ -242,7 +242,7 @@ ORDER BY c.segment, total_revenue DESC;
 
 ### 📷 Output Screenshot:
 
-![Segment Category Performance](segment_category_performance.png)
+![Segment Category Performance](segment_category_performance.png.png)
 
 ---
 
