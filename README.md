@@ -116,6 +116,20 @@ It simulates real-world E-Commerce business reporting and performance analysis u
 
 ---
 
+## Queries
+
+### Overall Business KPI
+
+SELECT 
+    SUM(od.sales) AS total_revenue,
+    SUM(od.profit) AS total_profit,
+    ROUND((SUM(od.profit)/SUM(od.sales))*100,2) AS profit_margin_pct
+FROM order_details od;
+
+## Output
+
+![Overall KPI](overall_kpi.png)
+
 ### 👤 Author
 Vishal Shenkre  
 SQL | Python | Power BI | Data Analytics
